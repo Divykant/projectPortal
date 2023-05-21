@@ -1,0 +1,214 @@
+.edit{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.edit-main{
+    overflow-x: hidden;
+  height: 100vh;
+  background-image: url("../../../Images/User/background.svg");
+  background-size: 100% 100%;
+}
+.edit_text{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    padding: 12px;
+    margin-top: 1.4%;
+    font-family: 'Montserrat';
+    text-align: center;
+    font-size: 35px;
+    width: fit-content;
+    color: white;
+    background-color: rgba(139, 143, 255, 1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.editq{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.editCard{
+    box-sizing: border-box;
+    position: relative;
+    width: 700px;
+    /* height: 100vh; */
+    max-height: 100vh;
+    border: 1px solid  ;
+    border: 0.5px solid #C5C5C5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.question_text{
+    margin: 12px;
+    font-size: larger;
+    font-family: Montserrat;
+}
+
+.question_field{
+    padding: 10px;
+    margin: 0px 10px;
+    width: 95%;
+    height: 110px;
+    resize: none;
+    border: none;
+    background: rgba(241, 218, 254, 0.5);
+    border-radius: 10px;
+}
+.category_text{
+    margin: 12px;
+    margin-bottom: 2px;
+    font-size: larger;
+    font-family: Montserrat;
+}
+
+.select_lang{
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    background: rgba(241, 218, 254, 0.5);
+}
+
+.options_text{
+    margin: 12px;
+    font-size: larger;
+    font-family: Montserrat;
+}
+
+.option_form{
+    margin:0px 10px ;
+}
+.option_input{
+    margin-left: 1px;
+    height: 38px;
+    width: 85%;
+    background: rgba(241, 218, 254, 0.5);
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+}
+.button_add{
+    position: relative;
+    left: 0;
+    width: 70px;
+    height: 38px;
+    background: rgba(0, 70, 205, 0.5);
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    cursor: pointer;
+}
+.option-list{
+    /* display: flex; */
+    margin: 10px;
+    padding: 2px;
+}
+
+.input-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(85% + 75px);
+    background: rgba(241, 218, 254, 0.5);
+    border-radius: 100px;
+    height: 38px;
+    border: none;
+    padding: 0px 25px;
+}
+
+.opt-list{
+    /* width: calc(85% + 75px); */
+    background: transparent;   
+    /* border-radius: 100px; */
+    /* height: 38px; */
+    border: none;
+    font-size: 17px;
+    padding: 0px 5px;
+}
+input:focus,
+textarea:focus,
+button:focus{
+    outline: none;
+}
+
+.editq{
+    margin-bottom: 20px;
+}
+
+.upload-cancel{
+    display: flex;
+    /* border: 2px solid; */
+    margin: 15px;
+    padding: 10px;
+}
+.upload{
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: left;
+    margin-left: 2%;
+    margin-right: 40%;
+}
+.cancel{
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: right;
+}
+.upload-btn{
+    cursor: pointer;
+    padding: 6%;
+    width: 10rem;
+    font-size: large;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    border: none;
+    background: #5AD047;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.cancel-btn{
+    cursor: pointer;
+    padding: 6%;
+    width: 10rem;
+    font-size: large;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    border: none;
+    background: #DE5947;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Einput-list{
+    /* border: 2px solid; */
+    margin: 3px;
+    width: 36vw;
+    background: rgba(241, 218, 254, 0.5);
+    border-radius: 10px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.Einput{
+    height: 18px;
+    width: 20px;
+    margin: 10px;
+}
+.Einputval{
+    font-size: 18px;
+    font-family: 'Montserrat';
+
+}

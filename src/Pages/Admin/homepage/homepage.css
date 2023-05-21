@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.admin-main{
+    height: calc(100vh + 85px);
+    width: 100vw;
+    background: url("../../../Images/User/background.svg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.homepage{
+    height: calc(100vh);
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    margin-left: 500px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 40vh;
+}
+
+.table{
+    width: 60%;
+    
+
+}
+
+.field{
+    padding: 8px;
+    font-weight: 600;
+    font-size: larger;
+    text-align: left;
+}
+.value{
+    font-size: larger;
+    text-align: right;
+}
+
+
+

@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.Sidebar_body1 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Sidebar_body2 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: rgba(51, 51, 51, 0.895); */
+  filter: blur(2px);
+}
+.time_left1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dbdbdb;
+  height: 56px;
+}
+.time_left2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgba(51, 51, 51, 0.895); */
+
+  opacity: 0.6;
+  height: 56px;
+}
+.time_left h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.1em;
+}
+.time_measure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.time_counting2 {
+  display: flex;
+  flex-direction: column;
+}
+.time_num1 {
+  margin-top: 22px;
+  width: 71px;
+  height: 60px;
+  border-radius: 10px;
+  background: #9facff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.1em;
+}
+.time_num2 {
+  margin-top: 22px;
+  width: 71px;
+  height: 60px;
+  border-radius: 10px;
+  background: #9facff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.1em;
+  opacity: 0.3;
+}
+
+.time_text {
+  margin-top: 7px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.time_head1 {
+  margin-top: 43px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 56px;
+  background: #dbdbdb;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+}
+.time_head2 {
+  margin-top: 43px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 56px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+  /* background-color: rgba(51, 51, 51, 0.895); */
+  filter: blur(2px);
+
+  opacity: 0.4;
+}
+.test_btn1 {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  margin-left: 3rem;
+}
+.test_btn2 {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  margin-left: 3rem;
+  opacity: 0.4;
+}
+.sidebar_button {
+  color: black;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background: #ffffff;
+  border: 1px solid rgb(46, 20, 133);
+  margin-top: 1rem;
+}
+
+.not_visited {
+  color: black;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgb(46, 20, 133);
+  margin-top: 1rem;
+  background-color: rgb(255, 255, 255);
+}
+.mark_review {
+  color: white;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgb(46, 20, 133);
+  margin-top: 1rem;
+  background-color: rgb(46, 20, 133);
+}
+.save_next {
+  color: white;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #3b8039;
+  margin-top: 1rem;
+  background-color: green;
+}
+.not_answered {
+  color: white;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #c22a2c;
+  margin-top: 1rem;
+  background-color: #c22a2c;
+}
+
+.side_footer {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+}
+.submit_button1 {
+  cursor: pointer;
+  margin-top: 36px;
+  width: 263px;
+  height: 40px;
+  background: #ae1615;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+.submit_button2 {
+  cursor: pointer;
+  margin-top: 36px;
+  width: 263px;
+  height: 40px;
+  background: #ae1615;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  opacity: 0.3;
+}
